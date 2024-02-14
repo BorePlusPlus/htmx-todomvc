@@ -1,5 +1,4 @@
 {
-  "extends": "@infinitaslearning/module-typescript-configs/tsconfig.node.json",
   "compilerOptions": {
     "target": "es2020",
     "esModuleInterop": true,
