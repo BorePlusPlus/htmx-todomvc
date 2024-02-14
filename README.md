@@ -26,3 +26,7 @@ pnpm start
 ```
 
 And visit http://localhost:3000/
+
+## Apology
+
+If you don't like the look of indentation 🙈 - let me say that it's the biome default in my defence.
