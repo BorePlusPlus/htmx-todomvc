@@ -9,14 +9,12 @@ export function TodoItem({
 				<input
 					type="checkbox"
 					class="toggle"
-					data-testid="todo-item-toggle"
 					checked={complete}
 					hx-patch={`/todos/${id}/toggle`}
 					hx-swap="outerHTML"
 					hx-target="closest li"
 				/>
 				<label
-					data-testid="todo-item-label"
 					_="on dblclick add .editing to closest <li/>
 						then set editor to the next <input/>
 						then focus() on editor
