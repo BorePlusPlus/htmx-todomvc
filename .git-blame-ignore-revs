@@ -1,0 +1,3 @@
+# .git-blame-ignore-revs
+# Reformatted codebase with new biome config (spaces instead of tabs)
+29847d9a371e6bdef3225193847331b43372dcb1
