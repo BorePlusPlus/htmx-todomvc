@@ -2,14 +2,5 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:best-practices"
-  ],
-  "hostRules": [
-    {
-      "hostType": "npm",
-      "matchHost": "https://npm.pkg.github.com/@infinitaslearning",
-      "encrypted": {
-        "token": "wcFMA/xDdHCJBTolAQ//ZUaUvyiUyJcp0SS/VZLxsfcsRBT0wZ94OiY0kTuOrlMvpzWx4JizjKrve4Zco5KT3CyX5+USf7Ol4+dnPAXCaG2DwS+OCZLi4QF2o1zMuxFjkiiSsXm6LxQKXCDNd7LN06CvjKPwbJkGaGKzw4WKyRzDQNGmRP1JbBkZTufTCh/aOsgam4MDq0vxE4UnyteT3wKV1LH3BxEq8mnQ62l1lrub50y9UAOhlgH9qCqjw/LTpa9ooq3HqeKfYFHp4uZ99LjZXAQdXcY7aMCPdejmp7AHKWvGPVF+ef2FX16zHgnlURmTQU0dEy25bh9MJhOK/Hh8RqpVMPwN0RRGOlxujOrRqOtcll9V/RUMcpydI/Yxmkrxmws/O+Qvk3XlM0XYVPju2OhAJPBDxHKvIu8eA7AQeoq3IYUYUQXiJU8ecIqdFw9/se49narzOvHHIsIpB9zoyyCj7+tYpTEEA0mg5oDxPGg56XnDDI28I7SfSY3os1x0a7CWl89V2ZIgYlwZ3PWvDqCFXfjh2jld4ozJVdjZdQOjicXxkO9szNOac1L905SC1NSoFJdrh2HGCGm5OmjkJ6rYjzBPexY0r7qSXH3dqeTlk/aJgGvDse+GqawHhLcTSseQSuijmDod+wpWPF2T/COoPzQw9vMbN+ECVj+USUiR34iKRS704wYrsgPSgAHv9dn957311VMO9WKSi0jluPfg//QzXYJphUg6a5b7r5prFDuvYlSqrcZBlXbRp1lJL2Q6SaBJ4IqCE2GFsUNXSwFrh1L9OZrR8Z3P/9XTS2MNCWY66Ajzfgk15sKVrydE83fPeDNRXtpXgOjJrjI/6zjobSXhVPdfMM4m+5+g"
-      }
-    }
   ]
 }
