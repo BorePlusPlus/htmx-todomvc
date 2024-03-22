@@ -16,7 +16,7 @@ dependencies:
     version: 3.33.0(zod@3.22.4)
   '@ts-rest/express':
     specifier: ^3.33.0
-    version: 3.33.0(express@4.18.3)(zod@3.22.4)
+    version: 3.33.1(express@4.18.3)(zod@3.22.4)
   body-parser:
     specifier: ^1.20.2
     version: 1.20.2
@@ -523,8 +523,8 @@ packages:
       zod: 3.22.4
     dev: false
 
-  /@ts-rest/express@3.33.0(express@4.18.3)(zod@3.22.4):
-    resolution: {integrity: sha512-lnHSwhK0CX0Wf55eSoEgmqO3M1gteh4snlkiJ5bhLX1MsHDfiE4SOkWG9d73L2D1mhXK1nrF4Fz66w/XkJcrkA==}
+  /@ts-rest/express@3.33.1(express@4.18.3)(zod@3.22.4):
+    resolution: {integrity: sha512-yAOeIf/4STRBiNtEoc8erjHOFLMRxwcRKF0aeFmP54PDZ2sWDG43SSp0uCUjdAenX3d9sa20avZMGV53Qc09Gg==}
     peerDependencies:
       express: ^4.0.0
       zod: ^3.22.3
