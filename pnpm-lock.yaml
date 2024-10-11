@@ -10,7 +10,7 @@ dependencies:
     version: 3.1.2(@kitajs/ts-html-plugin@1.3.4)
   '@kitajs/ts-html-plugin':
     specifier: ^1.3.4
-    version: 1.3.4(@kitajs/html@3.1.2)(typescript@5.3.3)
+    version: 1.3.4(@kitajs/html@3.1.2)(typescript@5.6.3)
   '@ts-rest/core':
     specifier: ^3.33.0
     version: 3.33.0(zod@3.22.4)
@@ -45,10 +45,10 @@ devDependencies:
     version: 3.1.0
   ts-node:
     specifier: 10.9.2
-    version: 10.9.2(@types/node@20.11.25)(typescript@5.3.3)
+    version: 10.9.2(@types/node@20.11.25)(typescript@5.6.3)
   typescript:
-    specifier: 5.3.3
-    version: 5.3.3
+    specifier: 5.6.3
+    version: 5.6.3
   vitest:
     specifier: 1.3.1
     version: 1.3.1(@types/node@20.11.25)
@@ -386,11 +386,11 @@ packages:
     peerDependencies:
       '@kitajs/ts-html-plugin': '>=1.3.3'
     dependencies:
-      '@kitajs/ts-html-plugin': 1.3.4(@kitajs/html@3.1.2)(typescript@5.3.3)
+      '@kitajs/ts-html-plugin': 1.3.4(@kitajs/html@3.1.2)(typescript@5.6.3)
       csstype: 3.1.3
     dev: false
 
-  /@kitajs/ts-html-plugin@1.3.4(@kitajs/html@3.1.2)(typescript@5.3.3):
+  /@kitajs/ts-html-plugin@1.3.4(@kitajs/html@3.1.2)(typescript@5.6.3):
     resolution: {integrity: sha512-AAht1OvLkQizJ59DM70qBgb0VwdyW9KUtDaH66JrfanMMvSSoM598WspJrVdVbe50olw69H+nnTj0lEfNDVmPQ==}
     hasBin: true
     peerDependencies:
@@ -400,7 +400,7 @@ packages:
       '@kitajs/html': 3.1.2(@kitajs/ts-html-plugin@1.3.4)
       chalk: 4.1.2
       tslib: 2.6.2
-      typescript: 5.3.3
+      typescript: 5.6.3
       yargs: 17.7.2
     dev: false
 
@@ -1777,7 +1777,7 @@ packages:
       nopt: 1.0.10
     dev: true
 
-  /ts-node@10.9.2(@types/node@20.11.25)(typescript@5.3.3):
+  /ts-node@10.9.2(@types/node@20.11.25)(typescript@5.6.3):
     resolution: {integrity: sha512-f0FFpIdcHgn8zcPSbf1dRevwt047YMnaiJM3u2w2RewrB+fob/zePZcrOyQoLMMO7aBIddLcQIEK5dYjkLnGrQ==}
     hasBin: true
     peerDependencies:
@@ -1803,7 +1803,7 @@ packages:
       create-require: 1.1.1
       diff: 4.0.2
       make-error: 1.3.6
-      typescript: 5.3.3
+      typescript: 5.6.3
       v8-compile-cache-lib: 3.0.1
       yn: 3.1.1
     dev: true
@@ -1825,8 +1825,8 @@ packages:
       mime-types: 2.1.35
     dev: false
 
-  /typescript@5.3.3:
-    resolution: {integrity: sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==}
+  /typescript@5.6.3:
+    resolution: {integrity: sha512-hjcS1mhfuyi4WW8IWtjP7brDrG2cuDZukyrYrSauoXGNgx0S7zceP07adYkJycEr56BOUTNPzbInooiN3fn1qw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
